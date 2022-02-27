@@ -58,7 +58,8 @@ class LocationBlock extends BlockBase implements ContainerFactoryPluginInterface
       '#theme' => 'location_block_display',
       '#country' => $location_config->get('country_name'),
       '#city' => $location_config->get('city_name'),
-      '#date_time' => $this->tzone->getModifiedTime()
+      '#date_time' => $this->tzone->getModifiedTime(),
+      '#cache' => ['max-age' => 0]
     ];
   }
 }
