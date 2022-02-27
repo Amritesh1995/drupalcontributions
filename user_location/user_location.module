@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * {@inheritdoc}
+ */
+function user_location_theme($existing, $type, $theme, $path) {
+  return [
+    'location_block_display' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'date_time' => NULL,
+      ],
+    ],
+  ];
+}

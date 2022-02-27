@@ -1,0 +1,6 @@
+name: User Location
+type: module
+description: 'Display location details for user.'
+package: Custom
+version: 1.0
+core_version_requirement: ^9

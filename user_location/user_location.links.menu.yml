@@ -1,0 +1,6 @@
+user_location.admin_settings_form:
+  title: 'Location Form'
+  route_name: user_location.admin_settings_form
+  description: 'Location Details Form'
+  parent: user.admin_index
+  weight: 99
